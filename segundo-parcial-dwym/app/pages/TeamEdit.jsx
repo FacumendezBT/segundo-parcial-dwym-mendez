@@ -24,8 +24,8 @@ const TeamEdit = () => {
             setNombre(response.name);
             setLogo(response.logo);
             setDescripcion(response.description);
-            setGoles(response.goals);
-            setPuntos(response.points);
+            setGoles(response.goals.toString());
+            setPuntos(response.points.toString());
             setLoading(false);
         };
         if (params.modoEditar === '1'){
