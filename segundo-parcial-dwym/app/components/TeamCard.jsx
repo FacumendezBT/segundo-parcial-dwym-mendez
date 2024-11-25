@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Image, StyleSheet } from 'react-native'
 import { Link } from "expo-router";
 
-function TeamCard({ nombre, logo, descripcion, id, extended = false }) {
+function TeamCard({ nombre, descripcion, id, extended = false }) {
     const teamStyle = StyleSheet.create({
         container: {
             backgroundColor: "white",

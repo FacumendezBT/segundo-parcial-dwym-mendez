@@ -87,7 +87,6 @@ const TeamsList = () => {
                                 <TeamCard
                                     key={team.id}
                                     nombre={team.name}
-                                    logo={team.logo}
                                     descripcion={team.description}
                                     id={team.id}
                                 />
